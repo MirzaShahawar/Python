@@ -1,7 +1,4 @@
-# main.py
-def hello_world():
-    return "Hello, CI/CD World!"
-
-if __name__ == "__main__":
-    print(hello_world())
+def handler(event=None, context=None):
+    print("Hello, CI/CD World!")
+    return "Success"
 
